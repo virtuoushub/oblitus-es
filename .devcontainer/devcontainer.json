@@ -1,0 +1,4 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/javascript-node:20",
+    "postCreateCommand": "pnpm setup && source /home/codespace/.bashrc && pnpm add -g pnpm"
+}
