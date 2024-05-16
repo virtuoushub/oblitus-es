@@ -20,7 +20,7 @@
     "@typescript-eslint/parser": "^7.9.0",
     "@vitejs/plugin-react": "^4.2.1",
     "babel-plugin-react-compiler": "^0.0.0-experimental-c23de8d-20240515",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-react-compiler": "^0.0.0-experimental-53bb89e-20240515",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
