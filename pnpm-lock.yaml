@@ -10,10 +10,10 @@ importers:
     dependencies:
       react:
         specifier: experimental
-        version: 0.0.0-experimental-8b08e99e-20240713
+        version: 0.0.0-experimental-512b09b2-20240718
       react-dom:
         specifier: experimental
-        version: 0.0.0-experimental-8b08e99e-20240713(react@0.0.0-experimental-8b08e99e-20240713)
+        version: 0.0.0-experimental-512b09b2-20240718(react@0.0.0-experimental-512b09b2-20240718)
     devDependencies:
       '@types/react':
         specifier: ^18.3.2
@@ -44,7 +44,7 @@ importers:
         version: 4.6.2(eslint@8.57.0)
       eslint-plugin-react-refresh:
         specifier: ^0.4.7
-        version: 0.4.7(eslint@8.57.0)
+        version: 0.4.8(eslint@8.57.0)
       typescript:
         specifier: ^5.4.5
         version: 5.5.3
@@ -853,8 +853,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
 
-  eslint-plugin-react-refresh@0.4.7:
-    resolution: {integrity: sha512-yrj+KInFmwuQS2UQcg1SF83ha1tuHC1jMQbRNyuWtlEzzKRDgAl7L4Yp4NlDUZTZNlWvHEzOtJhMi40R7JxcSw==}
+  eslint-plugin-react-refresh@0.4.8:
+    resolution: {integrity: sha512-MIKAclwaDFIiYtVBLzDdm16E+Ty4GwhB6wZlCAG1R3Ur+F9Qbo6PRxpA5DK7XtDgm+WlCoAY2WxAwqhmIDHg6Q==}
     peerDependencies:
       eslint: '>=7'
 
@@ -1160,10 +1160,10 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@0.0.0-experimental-8b08e99e-20240713:
-    resolution: {integrity: sha512-N0IaNhLeivtluRFoZdpYlcAEMVkrnjapd8iv9ejripfCQ+pOoNaL6yg5ABFgJrVB4dfLXIL4NQph8Gex5L6vow==}
+  react-dom@0.0.0-experimental-512b09b2-20240718:
+    resolution: {integrity: sha512-W0v0HcAsOTspUfswXLl2A42aHEVrntIevtmXo9xUMSag6PV1eutapp18TWyyLgE1G+eMGn6aNGDa4p2RjiQZrQ==}
     peerDependencies:
-      react: 0.0.0-experimental-8b08e99e-20240713
+      react: 0.0.0-experimental-512b09b2-20240718
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -1172,8 +1172,8 @@ packages:
     resolution: {integrity: sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==}
     engines: {node: '>=0.10.0'}
 
-  react@0.0.0-experimental-8b08e99e-20240713:
-    resolution: {integrity: sha512-Zxw1oIhd+7UOPKqHqAtdVJMHX4zcSTNyoPnxry8OBbCZEfVFljw6o1zAapdZ3lzwasp3AVlPgPSSA50z0Gkhjg==}
+  react@0.0.0-experimental-512b09b2-20240718:
+    resolution: {integrity: sha512-0rh3ASA1kCRxUsj9B7uuuitE7A1rLnB/cAJ7+S/aU+ZNqep+qz+BV1kvD8Ivt/lCCKq+R0MnBUgCXQGymc8e5A==}
     engines: {node: '>=0.10.0'}
 
   resolve-from@4.0.0:
@@ -1197,8 +1197,8 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  scheduler@0.0.0-experimental-8b08e99e-20240713:
-    resolution: {integrity: sha512-AsY8SDSIqSi0pVj1dcKDP8JOZ2bk0OujTN2uQ+1rtAj1ZWBel7dJTnOD4CTkd/KnlhcgRf+p+THsMkzwLrrrag==}
+  scheduler@0.0.0-experimental-512b09b2-20240718:
+    resolution: {integrity: sha512-gFxQnF/mInahl5ihIZodPNE0hHCyXy1qOHEgfQL9YHv3y5h5VtygivyVryDfWIFKHPHecQv5aip/SmJzdWcaWg==}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -2193,7 +2193,7 @@ snapshots:
     dependencies:
       eslint: 8.57.0
 
-  eslint-plugin-react-refresh@0.4.7(eslint@8.57.0):
+  eslint-plugin-react-refresh@0.4.8(eslint@8.57.0):
     dependencies:
       eslint: 8.57.0
 
@@ -2507,16 +2507,16 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@0.0.0-experimental-8b08e99e-20240713(react@0.0.0-experimental-8b08e99e-20240713):
+  react-dom@0.0.0-experimental-512b09b2-20240718(react@0.0.0-experimental-512b09b2-20240718):
     dependencies:
-      react: 0.0.0-experimental-8b08e99e-20240713
-      scheduler: 0.0.0-experimental-8b08e99e-20240713
+      react: 0.0.0-experimental-512b09b2-20240718
+      scheduler: 0.0.0-experimental-512b09b2-20240718
 
   react-is@16.13.1: {}
 
   react-refresh@0.14.2: {}
 
-  react@0.0.0-experimental-8b08e99e-20240713: {}
+  react@0.0.0-experimental-512b09b2-20240718: {}
 
   resolve-from@4.0.0: {}
 
@@ -2552,7 +2552,7 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  scheduler@0.0.0-experimental-8b08e99e-20240713: {}
+  scheduler@0.0.0-experimental-512b09b2-20240718: {}
 
   semver@6.3.1: {}
 
